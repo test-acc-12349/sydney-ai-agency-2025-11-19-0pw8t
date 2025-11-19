@@ -1,0 +1,1159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sydney AI Agency | Local AI Strategy & Implementation Experts</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Sydney AI Agency helps Sydney-based companies design and implement tailored AI growth plans with on-call local AI experts. Strategy, automation, and implementation from a trusted local team.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    body { font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
+  </style>
+</head>
+<body class="bg-white text-slate-900 antialiased scroll-smooth">
+  <!-- Header -->
+  <header class="sticky top-0 z-40 bg-white/80 backdrop-blur border-b border-slate-100">
+    <nav class="max-w-7xl mx-auto px-8 md:px-16 py-4 flex items-center justify-between">
+      <a href="#top" class="flex items-center gap-3">
+        <div class="w-9 h-9 rounded-2xl bg-[#5B4BFF] flex items-center justify-center shadow-[0_10px_40px_rgba(0,0,0,0.1)]">
+          <!-- Heroicon: rocket -->
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M15.59 14.37L9.63 8.41C8.09 8.74 6.34 9.47 4.94 10.88C3.01 12.81 2.25 15.29 2 16.5C1.96 16.72 2.16 16.92 2.38 16.88C3.59 16.63 6.07 15.87 8 13.94C9.41 12.54 10.14 10.79 10.47 9.25M15.59 14.37C15.26 15.91 14.53 17.66 13.12 19.06C11.19 20.99 8.71 21.75 7.5 22C7.28 22.04 7.08 21.84 7.12 21.62C7.37 20.41 8.13 17.93 10.06 16C11.46 14.59 13.21 13.86 14.75 13.53M15.59 14.37L21.18 8.78C21.71 8.25 22 7.55 22 6.82V4.75C22 4.34 21.66 4 21.25 4H19.18C18.45 4 17.75 4.29 17.22 4.82L11.63 10.41M8 22L4 18M6 16L2 20M14 8C14 9.105 14.895 10 16 10C17.105 10 18 9.105 18 8C18 6.895 17.105 6 16 6C14.895 6 14 6.895 14 8Z" />
+          </svg>
+        </div>
+        <div class="flex flex-col">
+          <span class="text-base md:text-lg font-semibold tracking-tight text-slate-900">Sydney AI Agency</span>
+          <span class="hidden md:block text-xs font-medium text-slate-500 tracking-wide uppercase">Local AI Strategy Partners</span>
+        </div>
+      </a>
+
+      <div class="hidden md:flex items-center gap-10 text-sm font-medium">
+        <a href="#features" class="text-slate-700 hover:text-[#5B4BFF] transition-colors duration-300">Services</a>
+        <a href="#benefits" class="text-slate-700 hover:text-[#5B4BFF] transition-colors duration-300">Why Sydney AI</a>
+        <a href="#about" class="text-slate-700 hover:text-[#5B4BFF] transition-colors duration-300">About</a>
+        <a href="#testimonials" class="text-slate-700 hover:text-[#5B4BFF] transition-colors duration-300">Results</a>
+        <a href="#faq" class="text-slate-700 hover:text-[#5B4BFF] transition-colors duration-300">FAQ</a>
+      </div>
+
+      <div class="hidden md:flex items-center gap-4">
+        <a href="https://sai.com" class="text-sm font-medium text-slate-700 hover:text-[#5B4BFF] transition-colors duration-300">Visit Website</a>
+        <a href="https://sai.com" class="inline-flex items-center gap-2 rounded-full bg-[#5B4BFF] px-8 py-3 text-sm font-semibold text-white shadow-[0_10px_40px_rgba(91,75,255,0.4)] hover:shadow-xl hover:scale-105 hover:brightness-110 active:scale-95 transition-all duration-300 ease-out">
+          Book a Strategy Call
+          <!-- Heroicon: arrow-right -->
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M4.5 12H19.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M13.5 6L19.5 12L13.5 18" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </a>
+      </div>
+
+      <button class="md:hidden mobile-menu-button inline-flex items-center justify-center w-10 h-10 rounded-full border border-slate-200 text-slate-700 hover:text-[#5B4BFF] hover:border-[#5B4BFF] transition-all duration-300 ease-out">
+        <i class="fa-solid fa-bars text-lg"></i>
+      </button>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu hidden md:hidden border-t border-slate-100 bg-white transition-all duration-300">
+      <div class="max-w-7xl mx-auto px-8 md:px-16 py-4 flex flex-col gap-3 text-sm font-medium">
+        <a href="#features" class="py-2 text-slate-700 hover:text-[#5B4BFF] transition-colors duration-300">Services</a>
+        <a href="#benefits" class="py-2 text-slate-700 hover:text-[#5B4BFF] transition-colors duration-300">Why Sydney AI</a>
+        <a href="#about" class="py-2 text-slate-700 hover:text-[#5B4BFF] transition-colors duration-300">About</a>
+        <a href="#testimonials" class="py-2 text-slate-700 hover:text-[#5B4BFF] transition-colors duration-300">Results</a>
+        <a href="#faq" class="py-2 text-slate-700 hover:text-[#5B4BFF] transition-colors duration-300">FAQ</a>
+        <div class="pt-2 flex flex-col gap-2">
+          <a href="https://sai.com" class="w-full inline-flex items-center justify-center gap-2 rounded-full bg-[#5B4BFF] px-6 py-3 text-sm font-semibold text-white shadow-[0_10px_40px_rgba(91,75,255,0.4)] hover:shadow-xl hover:scale-105 hover:brightness-110 active:scale-95 transition-all duration-300 ease-out">
+            Book a Strategy Call
+          </a>
+          <a href="https://sai.com" class="w-full inline-flex items-center justify-center rounded-full border border-slate-200 px-6 py-3 text-sm font-medium text-slate-700 hover:border-[#5B4BFF] hover:text-[#5B4BFF] transition-all duration-300 ease-out">
+            Visit Website
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- Hero -->
+    <section class="relative overflow-hidden">
+      <div class="absolute inset-0 pointer-events-none" aria-hidden="true">
+        <div class="absolute -top-40 -right-32 w-80 h-80 bg-[#EEF0FF] rounded-full blur-3xl opacity-80"></div>
+        <div class="absolute -bottom-40 -left-20 w-96 h-96 bg-[#00E5A8]/10 rounded-full blur-3xl"></div>
+      </div>
+      <div class="max-w-7xl mx-auto px-8 md:px-16 py-32 md:py-40 relative z-10">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 md:gap-16 items-center">
+          <div class="space-y-8">
+            <span class="inline-flex items-center gap-2 rounded-full bg-[#EEF0FF] px-4 py-1.5 text-xs font-semibold text-[#5B4BFF] tracking-wide uppercase shadow-sm">
+              Sydney-Based · AI Strategy & Execution
+            </span>
+            <div class="space-y-4">
+              <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-slate-900 leading-tight">
+                Sydney AI Agency
+              </h1>
+              <p class="text-base md:text-lg text-slate-600 leading-relaxed max-w-xl">
+                We design and implement tailored AI growth plans for Sydney businesses, combining world‑class AI capabilities with on‑call local experts who understand your market, your goals, and your constraints.
+              </p>
+            </div>
+            <div class="flex flex-col sm:flex-row items-start sm:items-center gap-4">
+              <a href="https://sai.com" class="inline-flex items-center justify-center gap-2 rounded-full bg-[#5B4BFF] px-8 py-3 text-sm md:text-base font-semibold text-white shadow-[0_10px_40px_rgba(91,75,255,0.4)] hover:shadow-xl hover:scale-105 hover:brightness-110 active:scale-95 transition-all duration-300 ease-out">
+                Schedule Your AI Roadmap Session
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M4.5 12H19.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M13.5 6L19.5 12L13.5 18" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </a>
+              <button type="button" class="inline-flex items-center gap-2 text-sm md:text-base font-medium text-slate-700 hover:text-[#5B4BFF] transition-all duration-300 ease-out">
+                <span class="flex -space-x-2">
+                  <span class="w-7 h-7 rounded-full bg-[#5B4BFF]/10 border border-white flex items-center justify-center text-[10px] font-semibold text-[#5B4BFF] shadow-[0_10px_40px_rgba(0,0,0,0.1)]">SYD</span>
+                  <span class="w-7 h-7 rounded-full bg-[#00E5A8]/10 border border-white flex items-center justify-center text-[10px] font-semibold text-emerald-600 shadow-[0_10px_40px_rgba(0,0,0,0.08)]">AI</span>
+                </span>
+                <span>Trusted by growing teams across Sydney</span>
+              </button>
+            </div>
+            <div class="flex flex-wrap items-center gap-6 pt-4">
+              <div class="flex items-center gap-2">
+                <!-- Heroicon: check-circle -->
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-[#00E5A8]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M9 12.75L11.25 15L15 9.75" stroke-linecap="round" stroke-linejoin="round"/>
+                  <circle cx="12" cy="12" r="9" />
+                </svg>
+                <span class="text-xs md:text-sm font-medium text-slate-700">ROI-focused in under 90 days</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <!-- Heroicon: shield-check -->
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-[#5B4BFF]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M12 3L5.25 5.25V11.25C5.25 15.47 8.04 19.28 12 20.25C15.96 19.28 18.75 15.47 18.75 11.25V5.25L12 3Z" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M9 12L11 14L15 10" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span class="text-xs md:text-sm font-medium text-slate-700">Data privacy & compliance first</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="relative">
+            <div class="relative rounded-2xl bg-white border border-slate-100 shadow-[0_10px_40px_rgba(15,23,42,0.08)] px-6 py-6 md:px-8 md:py-8 flex flex-col gap-6">
+              <div class="flex items-center justify-between gap-4">
+                <div>
+                  <p class="text-xs font-semibold tracking-wide text-[#5B4BFF] uppercase">Sydney AI Snapshot</p>
+                  <p class="text-sm text-slate-500 mt-1">What you can unlock in the next 3 months.</p>
+                </div>
+                <!-- Heroicon: chart-bar -->
+                <div class="w-10 h-10 rounded-2xl bg-[#EEF0FF] flex items-center justify-center text-[#5B4BFF]">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                    <path d="M3.75 19.5H20.25" stroke-linecap="round"/>
+                    <path d="M6.75 16.5V10.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M12 16.5V7.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M17.25 16.5V4.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </div>
+              </div>
+
+              <div class="grid grid-cols-2 gap-4">
+                <div class="rounded-2xl bg-[#EEF0FF]/60 px-4 py-4 flex flex-col gap-2">
+                  <span class="text-[10px] font-semibold tracking-wide text-slate-500 uppercase">Average process time saved</span>
+                  <span class="text-2xl md:text-3xl font-bold tracking-tight text-slate-900">38%</span>
+                  <span class="text-xs text-slate-500">Within the first 12 weeks of deployment.</span>
+                </div>
+                <div class="rounded-2xl bg-emerald-50 px-4 py-4 flex flex-col gap-2 border border-emerald-100">
+                  <span class="text-[10px] font-semibold tracking-wide text-emerald-600 uppercase">New revenue potential</span>
+                  <span class="text-2xl md:text-3xl font-bold tracking-tight text-emerald-600">+24%</span>
+                  <span class="text-xs text-emerald-600/80">From AI-enabled products & upsells.</span>
+                </div>
+              </div>
+
+              <div class="flex flex-col gap-3">
+                <div class="flex items-center justify-between gap-2">
+                  <div class="flex items-center gap-2">
+                    <!-- Heroicon: users -->
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-[#5B4BFF]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                      <path d="M15 19.5V18.75C15 17.5074 14.0063 16.5 12.75 16.5H5.25C3.99264 16.5 3 17.5074 3 18.75V19.5" stroke-linecap="round"/>
+                      <path d="M9 13.5C10.6569 13.5 12 12.1569 12 10.5C12 8.84315 10.6569 7.5 9 7.5C7.34315 7.5 6 8.84315 6 10.5C6 12.1569 7.34315 13.5 9 13.5Z" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M19.5 19.5V18.75C19.5 17.6796 18.8153 16.7545 17.8125 16.4569" stroke-linecap="round"/>
+                      <path d="M16.5 7.62891C17.5034 7.92539 18.1875 8.85167 18.1875 9.92391C18.1875 10.9961 17.5034 11.9224 16.5 12.2189" stroke-linecap="round"/>
+                    </svg>
+                    <span class="text-xs font-medium text-slate-600">On-call local AI experts</span>
+                  </div>
+                  <span class="text-xs font-semibold text-slate-900">Sydney · Hybrid</span>
+                </div>
+                <div class="w-full h-2 rounded-full bg-slate-100 overflow-hidden">
+                  <div class="h-full w-4/5 rounded-full bg-gradient-to-r from-[#5B4BFF] via-indigo-400 to-[#00E5A8]"></div>
+                </div>
+                <p class="text-xs text-slate-500">
+                  Get a dedicated Sydney-based AI squad that plugs into your team for strategy, implementation, and continuous optimisation.
+                </p>
+              </div>
+
+              <div class="flex items-center justify-between border-t border-slate-100 pt-4">
+                <div class="flex items-center gap-3">
+                  <div class="w-8 h-8 rounded-full bg-[#5B4BFF]/10 flex items-center justify-center text-[11px] font-semibold text-[#5B4BFF]">
+                    SYD
+                  </div>
+                  <div>
+                    <p class="text-xs font-semibold text-slate-900">AI discovery call</p>
+                    <p class="text-[11px] text-slate-500">45 minutes · No slides, only real use cases.</p>
+                  </div>
+                </div>
+                <a href="https://sai.com" class="inline-flex items-center gap-1.5 rounded-full border border-slate-200 px-4 py-1.5 text-[11px] font-semibold text-slate-700 hover:border-[#5B4BFF] hover:text-[#5B4BFF] hover:bg-[#EEF0FF]/60 hover:scale-105 active:scale-95 transition-all duration-300 ease-out">
+                  Book now
+                  <svg xmlns="http://www.w3.org/2000/svg" class="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                    <path d="M4.5 12H19.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M13.5 6L19.5 12L13.5 18" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features -->
+    <section id="features" class="bg-[#EEF0FF]/60">
+      <div class="max-w-7xl mx-auto px-8 md:px-16 py-20 md:py-32">
+        <div class="flex flex-col md:flex-row md:items-end md:justify-between gap-6 md:gap-10 mb-12 md:mb-16">
+          <div>
+            <h2 class="text-3xl md:text-4xl font-bold tracking-tight text-slate-900 mb-4">
+              Custom AI Strategies Built for Sydney Businesses
+            </h2>
+            <p class="text-base md:text-lg text-slate-600 max-w-2xl">
+              From discovery workshops to production‑ready deployments, we craft AI strategies grounded in your commercial reality, technical stack, and regulatory environment—so you see measurable results, not just exciting demos.
+            </p>
+          </div>
+          <div class="flex flex-wrap gap-3">
+            <span class="inline-flex items-center gap-2 rounded-full bg-white px-4 py-1.5 text-xs font-semibold text-slate-700 shadow-sm">
+              <!-- Heroicon: sparkles -->
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-[#5B4BFF]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M9 6L10.125 9.375L13.5 10.5L10.125 11.625L9 15L7.875 11.625L4.5 10.5L7.875 9.375L9 6Z" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M17.25 4.5L17.8125 6.1875L19.5 6.75L17.8125 7.3125L17.25 9L16.6875 7.3125L15 6.75L16.6875 6.1875L17.25 4.5Z" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M16.5 14.25L16.875 15.375L18 15.75L16.875 16.125L16.5 17.25L16.125 16.125L15 15.75L16.125 15.375L16.5 14.25Z" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              Powered by Claude (Anthropic)
+            </span>
+            <span class="inline-flex items-center gap-2 rounded-full bg-white px-4 py-1.5 text-xs font-semibold text-slate-700 shadow-sm">
+              <!-- Heroicon: map -->
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-[#00E5A8]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M9 18.75L3.75 21V5.25L9 3L15 5.25L20.25 3V18.75L15 21L9 18.75V3" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              Designed for Australian operations
+            </span>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-10">
+          <!-- Feature 1 -->
+          <article class="group rounded-2xl bg-white border border-slate-100 shadow-[0_10px_40px_rgba(15,23,42,0.04)] hover:shadow-xl hover:border-[#5B4BFF]/40 hover:-translate-y-1 hover:scale-[1.02] transition-all duration-300 ease-out p-6 md:p-8">
+            <div class="flex items-center justify-between mb-5">
+              <div class="flex items-center justify-center w-11 h-11 rounded-2xl bg-[#EEF0FF] text-[#5B4BFF]">
+                <!-- Heroicon: presentation-chart-line -->
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M3.75 18H20.25" stroke-linecap="round"/>
+                  <path d="M12 3.75V18" stroke-linecap="round"/>
+                  <path d="M8.25 8.25L10.5 10.5L13.5 7.5L18 12" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M18 8.25V12H14.25" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </div>
+              <span class="text-xs font-semibold text-slate-500 uppercase tracking-wide">Strategic</span>
+            </div>
+            <h3 class="text-lg md:text-xl font-semibold tracking-tight text-slate-900 mb-3">
+              Custom AI Growth Blueprints
+            </h3>
+            <p class="text-sm md:text-base text-slate-600 mb-4">
+              We map your current operations, data landscape, and customer journeys to identify where AI can reliably unlock revenue, reduce costs, or enhance experience—then design a 6–12 month AI roadmap tailored to your business.
+            </p>
+            <ul class="space-y-2 mb-4 text-sm text-slate-600">
+              <li class="flex items-start gap-2">
+                <!-- Heroicon: check -->
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 mt-0.5 text-[#00E5A8]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M4.5 12.75L9 17.25L19.5 6.75" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span>Prioritised AI initiatives ranked by impact, effort, and risk.</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 mt-0.5 text-[#00E5A8]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M4.5 12.75L9 17.25L19.5 6.75" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span>Clear business cases with forecasted ROI and measurable KPIs.</span>
+              </li>
+            </ul>
+            <p class="text-xs font-medium text-slate-500">
+              Typical outcome: 3–5 high‑confidence AI initiatives scoped within 4 weeks.
+            </p>
+          </article>
+
+          <!-- Feature 2 -->
+          <article class="group rounded-2xl bg-white border border-slate-100 shadow-[0_10px_40px_rgba(15,23,42,0.04)] hover:shadow-xl hover:border-[#5B4BFF]/40 hover:-translate-y-1 hover:scale-[1.02] transition-all duration-300 ease-out p-6 md:p-8">
+            <div class="flex items-center justify-between mb-5">
+              <div class="flex items-center justify-center w-11 h-11 rounded-2xl bg-[#EEF0FF] text-[#5B4BFF]">
+                <!-- Heroicon: cpu-chip -->
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <rect x="8.25" y="8.25" width="7.5" height="7.5" rx="1.5"/>
+                  <path d="M9 3.75V6" stroke-linecap="round"/>
+                  <path d="M12 3.75V6" stroke-linecap="round"/>
+                  <path d="M15 3.75V6" stroke-linecap="round"/>
+                  <path d="M9 18V20.25" stroke-linecap="round"/>
+                  <path d="M12 18V20.25" stroke-linecap="round"/>
+                  <path d="M15 18V20.25" stroke-linecap="round"/>
+                  <path d="M18 9H20.25" stroke-linecap="round"/>
+                  <path d="M18 12H20.25" stroke-linecap="round"/>
+                  <path d="M18 15H20.25" stroke-linecap="round"/>
+                  <path d="M3.75 9H6" stroke-linecap="round"/>
+                  <path d="M3.75 12H6" stroke-linecap="round"/>
+                  <path d="M3.75 15H6" stroke-linecap="round"/>
+                </svg>
+              </div>
+              <span class="text-xs font-semibold text-slate-500 uppercase tracking-wide">Technical</span>
+            </div>
+            <h3 class="text-lg md:text-xl font-semibold tracking-tight text-slate-900 mb-3">
+              Claude‑Powered Automation & Assistants
+            </h3>
+            <p class="text-sm md:text-base text-slate-600 mb-4">
+              We build AI agents, workflows, and copilots around Claude (Anthropic) that plug into your existing tools—automating repetitive workflows, augmenting teams, and enhancing every customer interaction.
+            </p>
+            <ul class="space-y-2 mb-4 text-sm text-slate-600">
+              <li class="flex items-start gap-2">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 mt-0.5 text-[#00E5A8]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M4.5 12.75L9 17.25L19.5 6.75" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span>Customer support assistants that resolve up to 60% of inquiries autonomously.</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 mt-0.5 text-[#00E5A8]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M4.5 12.75L9 17.25L19.5 6.75" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span>Internal copilots that draft emails, generate reports, and summarise documents in seconds.</span>
+              </li>
+            </ul>
+            <p class="text-xs font-medium text-slate-500">
+              Typical outcome: 25–40% reduction in manual workload for targeted teams.
+            </p>
+          </article>
+
+          <!-- Feature 3 -->
+          <article class="group rounded-2xl bg-white border border-slate-100 shadow-[0_10px_40px_rgba(15,23,42,0.04)] hover:shadow-xl hover:border-[#5B4BFF]/40 hover:-translate-y-1 hover:scale-[1.02] transition-all duration-300 ease-out p-6 md:p-8">
+            <div class="flex items-center justify-between mb-5">
+              <div class="flex items-center justify-center w-11 h-11 rounded-2xl bg-[#EEF0FF] text-[#5B4BFF]">
+                <!-- Heroicon: building-office-2 -->
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M3.75 20.25H20.25" stroke-linecap="round"/>
+                  <path d="M4.5 19.5V5.25C4.5 4.83579 4.83579 4.5 5.25 4.5H10.5V19.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M13.5 19.5V8.25C13.5 7.83579 13.8358 7.5 14.25 7.5H18.75C19.1642 7.5 19.5 7.83579 19.5 8.25V19.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M7.5 8.25H8.25" stroke-linecap="round"/>
+                  <path d="M7.5 11.25H8.25" stroke-linecap="round"/>
+                  <path d="M7.5 14.25H8.25" stroke-linecap="round"/>
+                  <path d="M15.75 10.5H16.5" stroke-linecap="round"/>
+                  <path d="M15.75 13.5H16.5" stroke-linecap="round"/>
+                  <path d="M15.75 16.5H16.5" stroke-linecap="round"/>
+                </svg>
+              </div>
+              <span class="text-xs font-semibold text-slate-500 uppercase tracking-wide">Local</span>
+            </div>
+            <h3 class="text-lg md:text-xl font-semibold tracking-tight text-slate-900 mb-3">
+              Local Sydney Experts Embedded in Your Team
+            </h3>
+            <p class="text-sm md:text-base text-slate-600 mb-4">
+              Work directly with senior AI strategists, solution architects, and data specialists who live and work in Sydney—available for in‑person workshops, stakeholder presentations, and change management.
+            </p>
+            <ul class="space-y-2 mb-4 text-sm text-slate-600">
+              <li class="flex items-start gap-2">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 mt-0.5 text-[#00E5A8]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M4.5 12.75L9 17.25L19.5 6.75" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span>On‑site discovery sessions and executive briefings.</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 mt-0.5 text-[#00E5A8]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M4.5 12.75L9 17.25L19.5 6.75" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span>On‑call support aligned with AEST business hours.</span>
+              </li>
+            </ul>
+            <p class="text-xs font-medium text-slate-500">
+              Typical outcome: faster decisions, smoother rollouts, higher adoption.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Benefits -->
+    <section id="benefits" class="bg-white">
+      <div class="max-w-7xl mx-auto px-8 md:px-16 py-20 md:py-32">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 md:gap-16 items-center">
+          <div>
+            <h2 class="text-3xl md:text-4xl font-bold tracking-tight text-slate-900 mb-4">
+              Turn AI Hype into Measurable Growth
+            </h2>
+            <p class="text-base md:text-lg text-slate-600 mb-6">
+              We don’t just talk AI—we deploy it where it matters most. Every engagement starts with clear commercial outcomes and ends with a measurable uplift in productivity, revenue, or customer satisfaction.
+            </p>
+            <div class="space-y-5">
+              <div class="flex gap-4">
+                <div class="mt-1 flex items-center justify-center w-9 h-9 rounded-2xl bg-emerald-50 text-emerald-600">
+                  <!-- Heroicon: chart-pie -->
+                  <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                    <path d="M12 3.75V12L18.364 18.364" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M4.5 12C4.5 7.85786 7.85786 4.5 12 4.5C13.2026 4.5 14.3374 4.78538 15.3484 5.29621C16.3594 5.80703 17.2213 6.53021 17.8635 7.40381" stroke-linecap="round"/>
+                    <path d="M19.5 12C19.5 16.1421 16.1421 19.5 12 19.5C9.17747 19.5 6.73518 18.0326 5.33535 15.75" stroke-linecap="round"/>
+                  </svg>
+                </div>
+                <div>
+                  <h3 class="text-base md:text-lg font-semibold text-slate-900 mb-1">
+                    Tailored AI Growth Plans
+                  </h3>
+                  <p class="text-sm md:text-base text-slate-600">
+                    We co‑design a practical AI roadmap with your leadership and operational teams, aligning initiatives to your revenue targets, capacity constraints, and risk tolerance. Expect clarity: what to build, when, and why.
+                  </p>
+                </div>
+              </div>
+
+              <div class="flex gap-4">
+                <div class="mt-1 flex items-center justify-center w-9 h-9 rounded-2xl bg-[#EEF0FF] text-[#5B4BFF]">
+                  <!-- Heroicon: bolt -->
+                  <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                    <path d="M13.5 4.5L6.75 12H12L10.5 19.5L17.25 12H12L13.5 4.5Z" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </div>
+                <div>
+                  <h3 class="text-base md:text-lg font-semibold text-slate-900 mb-1">
+                    On‑Call Local AI Experts
+                  </h3>
+                  <p class="text-sm md:text-base text-slate-600">
+                    Access a dedicated Sydney-based AI squad that you can Slack, call, or bring into the room whenever decisions need to be made. No waiting on overseas time zones or generic support queues.
+                  </p>
+                </div>
+              </div>
+
+              <div class="flex gap-4">
+                <div class="mt-1 flex items-center justify-center w-9 h-9 rounded-2xl bg-slate-900 text-white">
+                  <!-- Heroicon: shield-check -->
+                  <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                    <path d="M12 3L5.25 5.25V11.25C5.25 15.47 8.04 19.28 12 20.25C15.96 19.28 18.75 15.47 18.75 11.25V5.25L12 3Z" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M9 12L11 14L15 10" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </div>
+                <div>
+                  <h3 class="text-base md:text-lg font-semibold text-slate-900 mb-1">
+                    Safe, Compliant, and Enterprise‑Ready
+                  </h3>
+                  <p class="text-sm md:text-base text-slate-600">
+                    Built with Anthropic’s safety‑first models and aligned with Australian data privacy requirements, our solutions are designed for regulated industries and risk‑aware leadership teams.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="mt-8 flex flex-wrap items-center gap-4">
+              <a href="https://sai.com" class="inline-flex items-center justify-center gap-2 rounded-full bg-[#5B4BFF] px-8 py-3 text-sm font-semibold text-white shadow-[0_10px_40px_rgba(91,75,255,0.4)] hover:shadow-xl hover:scale-105 hover:brightness-110 active:scale-95 transition-all duration-300 ease-out">
+                Explore AI Opportunities for Your Team
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M4.5 12H19.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M13.5 6L19.5 12L13.5 18" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </a>
+              <p class="text-xs md:text-sm text-slate-500">
+                Typical engagement starts with a 2‑week discovery and AI opportunity sprint.
+              </p>
+            </div>
+          </div>
+
+          <div class="relative">
+            <div class="absolute -top-10 -right-6 w-40 h-40 rounded-full bg-[#EEF0FF] blur-3xl opacity-80 pointer-events-none"></div>
+            <div class="relative rounded-2xl overflow-hidden shadow-[0_10px_40px_rgba(15,23,42,0.16)] border border-slate-100 bg-slate-900">
+              <img src="https://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&w=1200&q=80" alt="Team in Sydney working on AI strategy together" class="w-full h-64 md:h-80 object-cover object-center opacity-80">
+              <div class="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/70 to-transparent"></div>
+              <div class="absolute bottom-0 left-0 right-0 p-6 md:p-7">
+                <p class="text-xs font-semibold tracking-wide text-[#00E5A8] uppercase mb-2">
+                  Real outcomes, not pilots that never ship
+                </p>
+                <p class="text-base md:text-lg font-semibold text-white mb-3">
+                  “Within 10 weeks we automated 40% of our back‑office workload without adding headcount.”
+                </p>
+                <p class="text-xs md:text-sm text-slate-300">
+                  We work in short, focused delivery cycles that ship visible AI value fast, then scale what works across your organisation.
+                </p>
+                <div class="mt-4 flex items-center justify-between">
+                  <div class="flex items-center gap-3">
+                    <div class="w-9 h-9 rounded-full bg-white/10 border border-white/20 flex items-center justify-center text-[11px] font-semibold text-white">
+                      ROI
+                    </div>
+                    <div>
+                      <p class="text-xs font-semibold text-white">Average payback period</p>
+                      <p class="text-xs text-slate-300">3–6 months on priority initiatives</p>
+                    </div>
+                  </div>
+                  <div class="flex flex-col items-end">
+                    <span class="text-xs text-slate-400 mb-1">Efficiency uplift</span>
+                    <span class="text-xl md:text-2xl font-bold tracking-tight text-white">30–50%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="absolute -bottom-8 -left-4 w-56 rounded-2xl bg-white border border-slate-100 shadow-[0_10px_40px_rgba(15,23,42,0.14)] px-4 py-3 flex items-center justify-between">
+              <div>
+                <p class="text-xs font-semibold text-slate-900">AI pilot to production</p>
+                <p class="text-[11px] text-slate-500">Delivered in as little as 8–12 weeks.</p>
+              </div>
+              <!-- Heroicon: clock -->
+              <div class="w-8 h-8 rounded-full bg-[#EEF0FF] flex items-center justify-center text-[#5B4BFF]">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <circle cx="12" cy="12" r="9" />
+                  <path d="M12 7.5V12L15 13.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="relative bg-slate-900">
+      <div class="absolute inset-0">
+        <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1600&q=80')] bg-cover bg-center opacity-30"></div>
+        <div class="absolute inset-0 bg-gradient-to-r from-slate-900 via-slate-900/90 to-slate-900/70"></div>
+      </div>
+      <div class="max-w-7xl mx-auto px-8 md:px-16 py-20 md:py-32 relative z-10">
+        <div class="max-w-3xl">
+          <p class="text-xs font-semibold tracking-[0.2em] text-[#00E5A8] uppercase mb-4">
+            Next step
+          </p>
+          <h2 class="text-3xl md:text-4xl font-bold tracking-tight text-white mb-4">
+            Book a Sydney‑Based AI Strategy Session
+          </h2>
+          <p class="text-base md:text-lg text-slate-200 mb-8">
+            In 45 minutes, we’ll map 2–3 high‑impact AI opportunities specific to your organisation, using examples from similar Sydney companies. No jargon, no obligation—just a clear path from where you are to AI‑powered operations.
+          </p>
+          <div class="flex flex-col sm:flex-row items-start sm:items-center gap-4">
+            <a href="https://sai.com" class="inline-flex items-center justify-center gap-2 rounded-full bg-[#5B4BFF] px-8 py-3 text-sm md:text-base font-semibold text-white shadow-[0_10px_40px_rgba(91,75,255,0.6)] hover:shadow-xl hover:scale-105 hover:brightness-110 active:scale-95 transition-all duration-300 ease-out">
+              Book Your Strategy Call
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M4.5 12H19.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M13.5 6L19.5 12L13.5 18" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+            <p class="text-xs md:text-sm text-slate-300">
+              Or email us directly at <a href="mailto:admin@sai.com" class="underline underline-offset-2 hover:text-[#00E5A8] transition-colors duration-300">admin@sai.com</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="bg-[#EEF0FF]/60">
+      <div class="max-w-7xl mx-auto px-8 md:px-16 py-20 md:py-32">
+        <div class="flex flex-col md:flex-row md:items-end md:justify-between gap-6 md:gap-10 mb-12 md:mb-16">
+          <div>
+            <h2 class="text-3xl md:text-4xl font-bold tracking-tight text-slate-900 mb-4">
+              Sydney Teams Delivering Real AI Outcomes
+            </h2>
+            <p class="text-base md:text-lg text-slate-600 max-w-2xl">
+              We partner with ambitious organisations across Sydney—from scale‑ups to established enterprises—to design, build, and scale AI that moves the needle.
+            </p>
+          </div>
+          <div class="flex flex-col items-start md:items-end gap-2">
+            <div class="flex items-center gap-1 text-amber-400">
+              <i class="fa-solid fa-star text-sm"></i>
+              <i class="fa-solid fa-star text-sm"></i>
+              <i class="fa-solid fa-star text-sm"></i>
+              <i class="fa-solid fa-star text-sm"></i>
+              <i class="fa-solid fa-star text-sm"></i>
+            </div>
+            <p class="text-xs md:text-sm text-slate-500">
+              5.0 average rating from Sydney AI Agency clients
+            </p>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-10">
+          <!-- Testimonial 1 -->
+          <article class="rounded-2xl bg-white border border-slate-100 shadow-[0_10px_40px_rgba(15,23,42,0.04)] hover:shadow-xl hover:-translate-y-1 hover:scale-[1.02] transition-all duration-300 ease-out p-6 flex flex-col h-full">
+            <div class="mb-4">
+              <div class="flex items-center gap-1 text-amber-400 mb-2">
+                <i class="fa-solid fa-star text-xs"></i>
+                <i class="fa-solid fa-star text-xs"></i>
+                <i class="fa-solid fa-star text-xs"></i>
+                <i class="fa-solid fa-star text-xs"></i>
+                <i class="fa-solid fa-star text-xs"></i>
+              </div>
+              <p class="text-sm text-slate-700">
+                Sydney AI Agency helped us design a custom AI strategy that actually aligned with our revenue goals. Within three months of rolling out their Claude‑powered sales assistant, our SDR team saw a 27% uplift in qualified meetings with no additional headcount.
+              </p>
+            </div>
+            <div class="mt-auto pt-4 border-t border-slate-100 flex items-center gap-3">
+              <div class="w-9 h-9 rounded-full bg-[#5B4BFF]/10 flex items-center justify-center text-[11px] font-semibold text-[#5B4BFF]">
+                MW
+              </div>
+              <div>
+                <p class="text-sm font-semibold text-slate-900">Michael Wong</p>
+                <p class="text-xs text-slate-500">Head of Growth, Sydney SaaS Scale‑Up</p>
+              </div>
+            </div>
+          </article>
+
+          <!-- Testimonial 2 -->
+          <article class="rounded-2xl bg-white border border-slate-100 shadow-[0_10px_40px_rgba(15,23,42,0.04)] hover:shadow-xl hover:-translate-y-1 hover:scale-[1.02] transition-all duration-300 ease-out p-6 flex flex-col h-full">
+            <div class="mb-4">
+              <div class="flex items-center gap-1 text-amber-400 mb-2">
+                <i class="fa-solid fa-star text-xs"></i>
+                <i class="fa-solid fa-star text-xs"></i>
+                <i class="fa-solid fa-star text-xs"></i>
+                <i class="fa-solid fa-star text-xs"></i>
+                <i class="fa-solid fa-star text-xs"></i>
+              </div>
+              <p class="text-sm text-slate-700">
+                Having local Sydney experts we could bring into board meetings made all the difference. They translated AI opportunities into clear financial models and risk frameworks our directors understood, which fast‑tracked approval for our automation program.
+              </p>
+            </div>
+            <div class="mt-auto pt-4 border-t border-slate-100 flex items-center gap-3">
+              <div class="w-9 h-9 rounded-full bg-[#00E5A8]/10 flex items-center justify-center text-[11px] font-semibold text-emerald-600">
+                KL
+              </div>
+              <div>
+                <p class="text-sm font-semibold text-slate-900">Karen Li</p>
+                <p class="text-xs text-slate-500">COO, Mid‑Market Financial Services Firm</p>
+              </div>
+            </div>
+          </article>
+
+          <!-- Testimonial 3 -->
+          <article class="rounded-2xl bg-white border border-slate-100 shadow-[0_10px_40px_rgba(15,23,42,0.04)] hover:shadow-xl hover:-translate-y-1 hover:scale-[1.02] transition-all duration-300 ease-out p-6 flex flex-col h-full">
+            <div class="mb-4">
+              <div class="flex items-center gap-1 text-amber-400 mb-2">
+                <i class="fa-solid fa-star text-xs"></i>
+                <i class="fa-solid fa-star text-xs"></i>
+                <i class="fa-solid fa-star text-xs"></i>
+                <i class="fa-solid fa-star text-xs"></i>
+                <i class="fa-solid fa-star text-xs"></i>
+              </div>
+              <p class="text-sm text-slate-700">
+                We started with a small AI pilot in customer support and scaled quickly once we saw the numbers. Sydney AI Agency’s approach to metrics and experimentation meant we could prove a 35% reduction in handling time before expanding across channels.
+              </p>
+            </div>
+            <div class="mt-auto pt-4 border-t border-slate-100 flex items-center gap-3">
+              <div class="w-9 h-9 rounded-full bg-slate-900/5 flex items-center justify-center text-[11px] font-semibold text-slate-900">
+                RS
+              </div>
+              <div>
+                <p class="text-sm font-semibold text-slate-900">Rohan Singh</p>
+                <p class="text-xs text-slate-500">Customer Experience Director, National Retailer</p>
+              </div>
+            </div>
+          </article>
+
+          <!-- Testimonial 4 -->
+          <article class="rounded-2xl bg-white border border-slate-100 shadow-[0_10px_40px_rgba(15,23,42,0.04)] hover:shadow-xl hover:-translate-y-1 hover:scale-[1.02] transition-all duration-300 ease-out p-6 flex flex-col h-full">
+            <div class="mb-4">
+              <div class="flex items-center gap-1 text-amber-400 mb-2">
+                <i class="fa-solid fa-star text-xs"></i>
+                <i class="fa-solid fa-star text-xs"></i>
+                <i class="fa-solid fa-star text-xs"></i>
+                <i class="fa-solid fa-star text-xs"></i>
+                <i class="fa-solid fa-star text-xs"></i>
+              </div>
+              <p class="text-sm text-slate-700">
+                What impressed me most was how quickly they understood our constraints as a regulated healthcare provider. Their Claude‑based documentation assistant now drafts clinical summaries and patient letters with human review, saving our clinicians hours each week.
+              </p>
+            </div>
+            <div class="mt-auto pt-4 border-t border-slate-100 flex items-center gap-3">
+              <div class="w-9 h-9 rounded-full bg-[#5B4BFF]/5 flex items-center justify-center text-[11px] font-semibold text-[#5B4BFF]">
+                AB
+              </div>
+              <div>
+                <p class="text-sm font-semibold text-slate-900">Dr. Amelia Brown</p>
+                <p class="text-xs text-slate-500">Medical Director, Sydney Healthcare Group</p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Us -->
+    <section id="about" class="bg-white">
+      <div class="max-w-7xl mx-auto px-8 md:px-16 py-20 md:py-32">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 md:gap-16 items-start">
+          <div>
+            <h2 class="text-3xl md:text-4xl font-bold tracking-tight text-slate-900 mb-4">
+              About Sydney AI Agency
+            </h2>
+            <p class="text-base md:text-lg text-slate-600">
+              Sydney AI Agency was founded by a team of former consultants, data scientists, and operators who repeatedly saw AI projects stall between exciting proofs‑of‑concept and real‑world deployment. Based in Sydney and deeply embedded in the local ecosystem, we set out to bridge the gap between advanced AI capabilities—such as Anthropic’s Claude models—and the practical needs of Australian organisations. Since day one, we’ve focused on building cross‑functional teams that speak both the language of engineering and the language of the boardroom.
+            </p>
+          </div>
+          <div class="space-y-4">
+            <p class="text-base md:text-lg text-slate-600">
+              Our mission is to make AI a reliable growth lever for Sydney businesses by delivering solutions that are safe, measurable, and aligned with human values. We prioritise long‑term partnerships over one‑off projects, operate with radical transparency around risk and limitations, and measure our success by the value our clients realise in their own operations. Curiosity, integrity, and impact guide every engagement, from the first strategy workshop to ongoing optimisation and support.
+            </p>
+            <div class="flex flex-wrap items-center gap-4 pt-2">
+              <div class="flex items-center gap-2">
+                <!-- Heroicon: globe-asia-australia -->
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-[#5B4BFF]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <circle cx="12" cy="12" r="9" />
+                  <path d="M7.5 7.5H9L10.5 9V10.5L12 12V13.5L10.5 15H9L7.5 13.5V12" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M13.5 7.5L15 9L16.5 9.75V11.25L15.75 12" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span class="text-xs font-medium text-slate-600">Sydney‑based, globally informed</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <!-- Heroicon: heart -->
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-[#00E5A8]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M21 8.25C21 6.17893 19.3211 4.5 17.25 4.5C15.8101 4.5 14.542 5.2619 13.875 6.41786C13.208 5.2619 11.9399 4.5 10.5 4.5C8.42893 4.5 6.75 6.17893 6.75 8.25C6.75 15 13.875 18.75 13.875 18.75C13.875 18.75 21 15 21 8.25Z" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span class="text-xs font-medium text-slate-600">Human‑centric, safety‑first AI</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="bg-[#EEF0FF]/60">
+      <div class="max-w-7xl mx-auto px-8 md:px-16 py-20 md:py-32">
+        <div class="max-w-3xl mb-10 md:mb-14">
+          <h2 class="text-3xl md:text-4xl font-bold tracking-tight text-slate-900 mb-4">
+            Frequently Asked Questions
+          </h2>
+          <p class="text-base md:text-lg text-slate-600">
+            Answers to common questions about how we work, what to expect, and how Sydney AI Agency partners with your team.
+          </p>
+        </div>
+
+        <div class="space-y-4">
+          <!-- FAQ 1 -->
+          <div class="faq-item rounded-2xl bg-white border border-slate-100 shadow-[0_10px_40px_rgba(15,23,42,0.03)] overflow-hidden">
+            <button class="faq-question w-full flex items-center justify-between gap-4 px-5 md:px-6 py-4 md:py-5 cursor-pointer focus:outline-none focus-visible:ring-2 focus-visible:ring-[#5B4BFF] focus-visible:ring-offset-2 focus-visible:ring-offset-white">
+              <div class="flex items-start gap-3">
+                <!-- Heroicon: question-mark-circle -->
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-[#5B4BFF] mt-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M12 21C16.9706 21 21 16.9706 21 12C21 7.02944 16.9706 3 12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21Z"/>
+                  <path d="M9.75 9C9.75 7.75736 10.7574 6.75 12 6.75C13.2426 6.75 14.25 7.75736 14.25 9C14.25 9.78086 13.8291 10.4633 13.2 10.8214C12.5709 11.1796 12.15 11.862 12.15 12.6429V13.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M12 16.5H12.0075" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span class="text-sm md:text-base font-semibold text-slate-900 text-left">
+                  What types of businesses does Sydney AI Agency typically work with?
+                </span>
+              </div>
+              <svg class="faq-icon w-5 h-5 text-slate-500 transition-transform duration-300 ease-out" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M6 9L12 15L18 9" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </button>
+            <div class="faq-answer px-5 md:px-6 pb-4 md:pb-5 text-sm md:text-base text-slate-600 hidden">
+              We partner with Sydney‑based organisations that have clear growth or efficiency goals and are ready to invest in strategic AI initiatives. Most of our clients are mid‑market companies and scale‑ups across sectors like SaaS, financial services, healthcare, professional services, and retail. We also support larger enterprises that want a nimble, specialised AI team to validate and deliver high‑impact use cases quickly.
+            </div>
+          </div>
+
+          <!-- FAQ 2 -->
+          <div class="faq-item rounded-2xl bg-white border border-slate-100 shadow-[0_10px_40px_rgba(15,23,42,0.03)] overflow-hidden">
+            <button class="faq-question w-full flex items-center justify-between gap-4 px-5 md:px-6 py-4 md:py-5 cursor-pointer focus:outline-none focus-visible:ring-2 focus-visible:ring-[#5B4BFF] focus-visible:ring-offset-2 focus-visible:ring-offset-white">
+              <div class="flex items-start gap-3">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-[#5B4BFF] mt-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M12 21C16.9706 21 21 16.9706 21 12C21 7.02944 16.9706 3 12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21Z"/>
+                  <path d="M9.75 9C9.75 7.75736 10.7574 6.75 12 6.75C13.2426 6.75 14.25 7.75736 14.25 9C14.25 9.78086 13.8291 10.4633 13.2 10.8214C12.5709 11.1796 12.15 11.862 12.15 12.6429V13.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M12 16.5H12.0075" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span class="text-sm md:text-base font-semibold text-slate-900 text-left">
+                  How do you typically start an engagement and define a tailored AI growth plan?
+                </span>
+              </div>
+              <svg class="faq-icon w-5 h-5 text-slate-500 transition-transform duration-300 ease-out" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M6 9L12 15L18 9" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </button>
+            <div class="faq-answer px-5 md:px-6 pb-4 md:pb-5 text-sm md:text-base text-slate-600 hidden">
+              We begin with a focused discovery phase—usually two weeks—where we meet with key stakeholders, review your workflows and data landscape, and identify the most promising AI opportunities. From there, we co‑create a tailored AI growth plan that prioritises 3–5 initiatives based on impact, feasibility, and risk. This roadmap includes technical approaches (often centred around Claude), change‑management considerations, and a clear implementation timeline with measurable KPIs.
+            </div>
+          </div>
+
+          <!-- FAQ 3 -->
+          <div class="faq-item rounded-2xl bg-white border border-slate-100 shadow-[0_10px_40px_rgba(15,23,42,0.03)] overflow-hidden">
+            <button class="faq-question w-full flex items-center justify-between gap-4 px-5 md:px-6 py-4 md:py-5 cursor-pointer focus:outline-none focus-visible:ring-2 focus-visible:ring-[#5B4BFF] focus-visible:ring-offset-2 focus-visible:ring-offset-white">
+              <div class="flex items-start gap-3">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-[#5B4BFF] mt-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M12 21C16.9706 21 21 16.9706 21 12C21 7.02944 16.9706 3 12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21Z"/>
+                  <path d="M9.75 9C9.75 7.75736 10.7574 6.75 12 6.75C13.2426 6.75 14.25 7.75736 14.25 9C14.25 9.78086 13.8291 10.4633 13.2 10.8214C12.5709 11.1796 12.15 11.862 12.15 12.6429V13.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M12 16.5H12.0075" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span class="text-sm md:text-base font-semibold text-slate-900 text-left">
+                  How involved are your local Sydney experts during implementation and beyond?
+                </span>
+              </div>
+              <svg class="faq-icon w-5 h-5 text-slate-500 transition-transform duration-300 ease-out" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M6 9L12 15L18 9" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </button>
+            <div class="faq-answer px-5 md:px-6 pb-4 md:pb-5 text-sm md:text-base text-slate-600 hidden">
+              Our local team is hands‑on throughout the entire lifecycle. During implementation, Sydney‑based strategists, solution architects, and data specialists work side‑by‑side with your team—often on‑site—to configure models, integrate systems, and design human‑in‑the‑loop workflows. After launch, we provide on‑call support, training sessions, and regular optimisation reviews aligned with AEST business hours, ensuring your AI initiatives keep improving rather than stagnating after go‑live.
+            </div>
+          </div>
+
+          <!-- FAQ 4 -->
+          <div class="faq-item rounded-2xl bg-white border border-slate-100 shadow-[0_10px_40px_rgba(15,23,42,0.03)] overflow-hidden">
+            <button class="faq-question w-full flex items-center justify-between gap-4 px-5 md:px-6 py-4 md:py-5 cursor-pointer focus:outline-none focus-visible:ring-2 focus-visible:ring-[#5B4BFF] focus-visible:ring-offset-2 focus-visible:ring-offset-white">
+              <div class="flex items-start gap-3">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-[#5B4BFF] mt-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M12 21C16.9706 21 21 16.9706 21 12C21 7.02944 16.9706 3 12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21Z"/>
+                  <path d="M9.75 9C9.75 7.75736 10.7574 6.75 12 6.75C13.2426 6.75 14.25 7.75736 14.25 9C14.25 9.78086 13.8291 10.4633 13.2 10.8214C12.5709 11.1796 12.15 11.862 12.15 12.6429V13.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M12 16.5H12.0075" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span class="text-sm md:text-base font-semibold text-slate-900 text-left">
+                  How do you handle data security, privacy, and compliance with AI solutions?
+                </span>
+              </div>
+              <svg class="faq-icon w-5 h-5 text-slate-500 transition-transform duration-300 ease-out" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M6 9L12 15L18 9" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </button>
+            <div class="faq-answer px-5 md:px-6 pb-4 md:pb-5 text-sm md:text-base text-slate-600 hidden">
+              We take a safety‑first approach to every engagement. Our solutions are built on Anthropic’s Claude models, which are designed with strong security and alignment principles. We work with your legal, risk, and IT teams to define clear data boundaries, retention policies, and access controls, and we can architect deployments that keep sensitive data within your environment where required. For regulated industries, we map each initiative to relevant Australian standards and ensure appropriate human‑in‑the‑loop checkpoints are in place.
+            </div>
+          </div>
+
+          <!-- FAQ 5 -->
+          <div class="faq-item rounded-2xl bg-white border border-slate-100 shadow-[0_10px_40px_rgba(15,23,42,0.03)] overflow-hidden">
+            <button class="faq-question w-full flex items-center justify-between gap-4 px-5 md:px-6 py-4 md:py-5 cursor-pointer focus:outline-none focus-visible:ring-2 focus-visible:ring-[#5B4BFF] focus-visible:ring-offset-2 focus-visible:ring-offset-white">
+              <div class="flex items-start gap-3">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-[#5B4BFF] mt-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M12 21C16.9706 21 21 16.9706 21 12C21 7.02944 16.9706 3 12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21Z"/>
+                  <path d="M9.75 9C9.75 7.75736 10.7574 6.75 12 6.75C13.2426 6.75 14.25 7.75736 14.25 9C14.25 9.78086 13.8291 10.4633 13.2 10.8214C12.5709 11.1796 12.15 11.862 12.15 12.6429V13.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M12 16.5H12.0075" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span class="text-sm md:text-base font-semibold text-slate-900 text-left">
+                  What kind of results and timeframes should we realistically expect?
+                </span>
+              </div>
+              <svg class="faq-icon w-5 h-5 text-slate-500 transition-transform duration-300 ease-out" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M6 9L12 15L18 9" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </button>
+            <div class="faq-answer px-5 md:px-6 pb-4 md:pb-5 text-sm md:text-base text-slate-600 hidden">
+              While every organisation is unique, most clients see tangible benefits within the first 8–12 weeks of implementation. For targeted workflows—such as customer support, content generation, or internal reporting—it’s common to achieve 25–40% time savings or throughput improvements once AI solutions are embedded and adopted. We also track leading indicators like adoption rates, quality scores, and user satisfaction to ensure that efficiency gains don’t come at the expense of customer or employee experience.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="bg-white">
+      <div class="max-w-7xl mx-auto px-8 md:px-16 py-16 md:py-24">
+        <div class="rounded-2xl border border-slate-100 bg-[#EEF0FF]/80 shadow-[0_10px_40px_rgba(15,23,42,0.06)] px-6 md:px-10 py-8 md:py-10 flex flex-col md:flex-row items-start md:items-center justify-between gap-6 md:gap-10">
+          <div class="max-w-2xl">
+            <p class="text-xs font-semibold tracking-[0.2em] text-[#5B4BFF] uppercase mb-3">
+              Ready to move beyond AI experimentation?
+            </p>
+            <h2 class="text-2xl md:text-3xl font-bold tracking-tight text-slate-900 mb-3">
+              Let’s design your Sydney‑first AI roadmap.
+            </h2>
+            <p class="text-sm md:text-base text-slate-600">
+              Share your goals, and we’ll come prepared with relevant use cases, example architectures, and a clear process for validating AI in your organisation.
+            </p>
+          </div>
+          <div class="flex flex-col items-stretch gap-3 w-full md:w-auto">
+            <a href="https://sai.com" class="inline-flex items-center justify-center gap-2 rounded-full bg-[#5B4BFF] px-8 py-3 text-sm font-semibold text-white shadow-[0_10px_40px_rgba(91,75,255,0.4)] hover:shadow-xl hover:scale-105 hover:brightness-110 active:scale-95 transition-all duration-300 ease-out">
+              Book a Strategy Call
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M4.5 12H19.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M13.5 6L19.5 12L13.5 18" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+            <p class="text-[11px] text-slate-500 text-center md:text-left">
+              Prefer email? Contact us at <a href="mailto:admin@sai.com" class="underline underline-offset-2 hover:text-[#5B4BFF] transition-colors duration-300">admin@sai.com</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  
+    <!-- Contact Form Section - Centered Card Layout -->
+    <section id="contact" class="py-20 bg-gradient-to-b from-white to-gray-50">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-12">
+          <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Get in Touch</h2>
+          <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+            Have questions? We'd love to hear from you. Send us a message and we'll respond as soon as possible.
+          </p>
+        </div>
+
+        <div class="bg-white rounded-2xl shadow-xl p-8 md:p-12">
+          <form action="https://api.web3forms.com/submit" method="POST" class="space-y-6">
+            <input type="hidden" name="access_key" value="0b917c63-84c9-466a-b417-2cad89801d7f">
+            <input type="hidden" name="redirect" value="false">
+            <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+
+            <div>
+              <label for="name" class="block text-sm font-semibold text-gray-700 mb-2">
+                Full Name <span class="text-red-500">*</span>
+              </label>
+              <input 
+                type="text" 
+                name="name" 
+                id="name" 
+                required 
+                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-200 outline-none"
+                placeholder="John Doe"
+              >
+            </div>
+
+            <div>
+              <label for="email" class="block text-sm font-semibold text-gray-700 mb-2">
+                Email Address <span class="text-red-500">*</span>
+              </label>
+              <input 
+                type="email" 
+                name="email" 
+                id="email" 
+                required 
+                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-200 outline-none"
+                placeholder="john@example.com"
+              >
+            </div>
+
+            <div>
+              <label for="phone" class="block text-sm font-semibold text-gray-700 mb-2">
+                Phone Number
+              </label>
+              <input 
+                type="tel" 
+                name="phone" 
+                id="phone" 
+                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-200 outline-none"
+                placeholder="+1 (555) 000-0000"
+              >
+            </div>
+
+            <div>
+              <label for="message" class="block text-sm font-semibold text-gray-700 mb-2">
+                Message <span class="text-red-500">*</span>
+              </label>
+              <textarea 
+                name="message" 
+                id="message" 
+                required 
+                rows="5" 
+                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-200 outline-none resize-none"
+                placeholder="Tell us about your project or inquiry..."
+              ></textarea>
+            </div>
+
+            <div class="pt-4">
+              <button 
+                type="submit" 
+                class="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-4 px-8 rounded-lg transition-all duration-200 transform hover:scale-[1.02] active:scale-[0.98] shadow-lg hover:shadow-xl"
+              >
+                Send Message
+              </button>
+            </div>
+
+            <div id="form-result" class="hidden mt-4 p-4 rounded-lg text-center font-medium"></div>
+          </form>
+        </div>
+
+        <div class="mt-12 text-center">
+          <p class="text-gray-600">
+            Or email us directly at <a href="mailto:hello@example.com" class="text-blue-600 hover:text-blue-700 font-semibold">hello@example.com</a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      (function() {
+        const form = document.querySelector('form[action*="web3forms"]');
+        const resultDiv = document.getElementById('form-result');
+        
+        if (!form) return;
+        
+        form.addEventListener('submit', async function(e) {
+          e.preventDefault();
+          
+          const formData = new FormData(form);
+          const submitButton = form.querySelector('button[type="submit"]');
+          const originalButtonText = submitButton.textContent;
+          
+          submitButton.disabled = true;
+          submitButton.textContent = 'Sending...';
+          resultDiv.classList.add('hidden');
+          
+          try {
+            const response = await fetch('https://api.web3forms.com/submit', {
+              method: 'POST',
+              body: formData
+            });
+            
+            const data = await response.json();
+            
+            if (response.ok && data.success) {
+              resultDiv.className = 'block mt-4 p-4 rounded-lg text-center font-medium bg-green-50 text-green-800 border border-green-200';
+              resultDiv.textContent = 'Thank you! Your message has been sent successfully. We\'ll get back to you soon.';
+              form.reset();
+            } else {
+              resultDiv.className = 'block mt-4 p-4 rounded-lg text-center font-medium bg-red-50 text-red-800 border border-red-200';
+              resultDiv.textContent = data.message || 'Something went wrong. Please try again.';
+            }
+          } catch (error) {
+            resultDiv.className = 'block mt-4 p-4 rounded-lg text-center font-medium bg-red-50 text-red-800 border border-red-200';
+            resultDiv.textContent = 'Network error. Please check your connection and try again.';
+          } finally {
+            submitButton.disabled = false;
+            submitButton.textContent = originalButtonText;
+          }
+        });
+      })();
+    </script>
+  <footer class="bg-slate-900 text-slate-200">
+    <div class="max-w-7xl mx-auto px-8 md:px-16 py-12 md:py-16">
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-10 md:gap-12 mb-10 md:mb-12">
+        <div class="space-y-4">
+          <div class="flex items-center gap-3">
+            <div class="w-9 h-9 rounded-2xl bg-[#5B4BFF] flex items-center justify-center shadow-[0_10px_40px_rgba(0,0,0,0.3)]">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M15.59 14.37L9.63 8.41C8.09 8.74 6.34 9.47 4.94 10.88C3.01 12.81 2.25 15.29 2 16.5C1.96 16.72 2.16 16.92 2.38 16.88C3.59 16.63 6.07 15.87 8 13.94C9.41 12.54 10.14 10.79 10.47 9.25M15.59 14.37C15.26 15.91 14.53 17.66 13.12 19.06C11.19 20.99 8.71 21.75 7.5 22C7.28 22.04 7.08 21.84 7.12 21.62C7.37 20.41 8.13 17.93 10.06 16C11.46 14.59 13.21 13.86 14.75 13.53M15.59 14.37L21.18 8.78C21.71 8.25 22 7.55 22 6.82V4.75C22 4.34 21.66 4 21.25 4H19.18C18.45 4 17.75 4.29 17.22 4.82L11.63 10.41M8 22L4 18M6 16L2 20" />
+              </svg>
+            </div>
+            <div>
+              <p class="text-sm font-semibold text-white">Sydney AI Agency</p>
+              <p class="text-xs text-slate-400">Local AI Strategy & Implementation</p>
+            </div>
+          </div>
+          <p class="text-sm text-slate-400 max-w-xs">
+            Helping Sydney organisations design and deliver safe, measurable AI initiatives powered by Claude and led by local experts.
+          </p>
+          <div class="flex items-center gap-3">
+            <a href="mailto:admin@sai.com" class="text-xs text-slate-300 hover:text-white underline underline-offset-2 transition-colors duration-300">
+              admin@sai.com
+            </a>
+          </div>
+        </div>
+
+        <div class="space-y-3">
+          <h3 class="text-sm font-semibold text-white tracking-wide uppercase">Company</h3>
+          <ul class="space-y-2 text-sm text-slate-400">
+            <li><a href="#about" class="hover:text-white transition-colors duration-300">About Us</a></li>
+            <li><a href="#features" class="hover:text-white transition-colors duration-300">Services</a></li>
+            <li><a href="#testimonials" class="hover:text-white transition-colors duration-300">Client Results</a></li>
+            <li><a href="blog.html" class="hover:text-white transition-colors duration-300">Blog</a></li>
+          </ul>
+        </div>
+
+        <div class="space-y-3">
+          <h3 class="text-sm font-semibold text-white tracking-wide uppercase">Legal</h3>
+          <ul class="space-y-2 text-sm text-slate-400">
+            <li><a href="privacy.html" class="hover:text-white transition-colors duration-300">Privacy Policy</a></li>
+            <li><a href="terms.html" class="hover:text-white transition-colors duration-300">Terms of Service</a></li>
+          </ul>
+        </div>
+
+        <div class="space-y-3">
+          <h3 class="text-sm font-semibold text-white tracking-wide uppercase">Connect</h3>
+          <p class="text-sm text-slate-400">
+            Follow Sydney AI Agency for practical insights on AI strategy, safety, and implementation.
+          </p>
+          <div class="flex items-center gap-3">
+            <a href="#" aria-label="Sydney AI Agency on LinkedIn" class="w-9 h-9 rounded-full bg-slate-800 flex items-center justify-center text-slate-300 hover:text-white hover:bg-slate-700 hover:scale-105 active:scale-95 transition-all duration-300 ease-out">
+              <i class="fa-brands fa-linkedin-in text-sm"></i>
+            </a>
+            <a href="#" aria-label="Sydney AI Agency on Twitter" class="w-9 h-9 rounded-full bg-slate-800 flex items-center justify-center text-slate-300 hover:text-white hover:bg-slate-700 hover:scale-105 active:scale-95 transition-all duration-300 ease-out">
+              <i class="fa-brands fa-x-twitter text-sm"></i>
+            </a>
+            <a href="#" aria-label="Sydney AI Agency on YouTube" class="w-9 h-9 rounded-full bg-slate-800 flex items-center justify-center text-slate-300 hover:text-white hover:bg-slate-700 hover:scale-105 active:scale-95 transition-all duration-300 ease-out">
+              <i class="fa-brands fa-youtube text-sm"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="border-t border-slate-800 pt-6 mt-4">
+        <div class="max-w-7xl mx-auto px-8 md:px-16 flex flex-col md:flex-row items-center justify-between gap-4">
+          <p class="text-xs text-slate-500">
+            © 2025 Sydney AI Agency. All rights reserved.
+          </p>
+          <div class="flex flex-wrap items-center gap-4 text-xs text-slate-500">
+            <a href="privacy.html" class="hover:text-white transition-colors duration-300">Privacy</a>
+            <span class="hidden md:inline-block">•</span>
+            <a href="terms.html" class="hover:text-white transition-colors duration-300">Terms</a>
+            <span class="hidden md:inline-block">•</span>
+            <a href="blog.html" class="hover:text-white transition-colors duration-300">Blog</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      // Mobile Menu Toggle
+      const mobileMenuButton = document.querySelector('header nav .mobile-menu-button');
+      const mobileMenu = document.querySelector('header .mobile-menu');
+      
+      if (mobileMenuButton && mobileMenu) {
+        mobileMenuButton.addEventListener('click', () => {
+          mobileMenu.classList.toggle('hidden');
+          const icon = mobileMenuButton.querySelector('i');
+          if (icon) {
+            icon.classList.toggle('fa-bars');
+            icon.classList.toggle('fa-times');
+          }
+        });
+
+        const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+        mobileMenuLinks.forEach(link => {
+          link.addEventListener('click', () => {
+            mobileMenu.classList.add('hidden');
+            const icon = mobileMenuButton.querySelector('i');
+            if (icon) {
+              icon.classList.remove('fa-times');
+              icon.classList.add('fa-bars');
+            }
+          });
+        });
+      }
+
+      // FAQ Accordion Toggle
+      const faqItems = document.querySelectorAll('.faq-item');
+      faqItems.forEach(item => {
+        const question = item.querySelector('.faq-question');
+        if (question) {
+          question.addEventListener('click', () => {
+            const answer = item.querySelector('.faq-answer');
+            const isOpen = !answer.classList.contains('hidden');
+            
+            // Close all other FAQ items
+            faqItems.forEach(otherItem => {
+              if (otherItem !== item) {
+                otherItem.querySelector('.faq-answer')?.classList.add('hidden');
+                otherItem.querySelector('.faq-icon')?.classList.remove('rotate-180');
+              }
+            });
+            
+            // Toggle current item
+            answer?.classList.toggle('hidden');
+            item.querySelector('.faq-icon')?.classList.toggle('rotate-180');
+          });
+        }
+      });
+
+      // Smooth Scroll for Anchor Links
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function(e) {
+          const href = this.getAttribute('href');
+          if (href !== '#' && href.length > 1) {
+            e.preventDefault();
+            const target = document.querySelector(href);
+            if (target) {
+              target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+          }
+        });
+      });
+    });
+  </script>
+</body>
+</html>
